@@ -1,0 +1,31 @@
+package ex_03_Operators;
+
+public class Lab27_All_Operators {
+    public static void main(String[] args) {
+        int a = 10, b = 30;
+        System.out.println(a+b); //Int
+//        Boolean T / F
+        //        Arithmetic Operators = +,-,*,/,%
+        System.out.println(a>b);
+        System.out.println(a<b);
+        System.out.println(a>=b);
+        System.out.println(a<=b);
+        System.out.println(a==b);
+        System.out.println(a!=b);
+//      Compound Operators
+        int age = 20;
+        age += 60; // age = age + 30
+        System.out.println("Age + 30 : " + age);//OUTPUT:20+60=80
+        age -= 30; // age = age - 30
+        System.out.println("Age - 30 : " + age); // Output:80-30= 50
+        age *= 30; // age = age * 30
+        System.out.println("Age * 30 : " + age);// Output: 50*30=1500
+        age /= 30; // age = age / 30
+        System.out.println(+age);//output:1500/30=50
+/*        Other Bitwise Operators
+                ~ - Bitwise Not
+            >> - Right shift
+            << - Left shift
+            ^ - XOR*/
+    }
+}
